@@ -3,7 +3,7 @@
 using namespace std;
 
 int BinarySearch_recursion(int* A, int low, int high, int x) {
-	if (low > high) return -1;
+	if (low > high) return -1;      //base condition
 	int mid = low + (high - low) / 2;
 
 	if (x == A[mid]) return mid;
